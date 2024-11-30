@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ma Meilleure Ennemie</title>
+    <style>
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      :root {
+        --size: 1.5vmin;
+        --color: #e5e5e5;
+        --background: #654A6B;
+      }
+
+      body {
+        background: var(--background);
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #container {
+        width: fit-content;
+        aspect-ratio: 1;
+      }
+
+      #art {
+        position: relative;
+        background-color: #A96BD2;
+        width: var(--size);
+        height: var(--size);
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="art"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
